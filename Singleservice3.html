@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clean</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header-->
+    <section id="header">
+        <a href="#"> <img src="" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="index.html">Services</a></li>
+                <li><a href="index.html ">About</a></li>
+                <li><a href="index.html ">contact</a></li>
+
+                
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <!--end of header-->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="image/garden.jpg" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="image/extra/g2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="image/extra/g2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="image/extra/g2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="image/extra/g2.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home / Services</h6>
+            <h3>Gardening</h3>
+            <h5>800 MAD</h5>
+            <select>
+                <option>select service</option>
+                <option>select service</option>
+                <option>select service</option>
+                <option>select service</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To cart</button>
+            <h3>details</h3>
+            <span>
+                we offer our Services to make your life easy
+                dont think about little details take break we get it all go 
+                Focus on big deals &  have lovely  time with people you love
+                for more informations about ouf Services or any Complaints 
+                you can contact us and we will do our best for you
+            </span>
+        </div>
+    </section>
+    
+    <section id="services" class="section-p1">
+        <div id="hservices">
+            <h2 >Services</h2>
+            <p>make your life easy</p>
+        </div>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/pcare.jpg" alt="">
+                <div class="des">
+                    <span>health</span>
+                    <h5>Caring for parents</h5>
+                    <h4>800MAD</h4>
+                </div>
+                <i><a href="#"><i class="fa fa-shopping-cart cart"></i></a></i>
+            </div>
+            <div class="pro">
+                <img src="image/prettycare.jpg" alt="">
+                <div class="des">
+                    <span>beauty</span>
+                    <h5>Beauty care </h5>
+                    <h4>800MAD</h4>
+                </div>
+                <i><a href="#"><i class="fa fa-shopping-cart cart"></i></a></i>
+            </div>
+            <div class="pro">
+                <img src="image/security.jpg" alt="">
+                <div class="des">
+                    <span>caring</span>
+                    <h5>Security</h5>
+                    <h4>800MAD</h4>
+                </div>
+                <i><a href="#"><i class="fa fa-shopping-cart cart"></i></a></i>
+            </div>
+            <div class="pro">
+                <img src="image/cooking.jpg" alt="">
+                <div class="des">
+                    <span>health</span>
+                    <h5>Cooking</h5>
+                    <h4>800MAD</h4>
+                </div>
+                <i><a href="#"><i class="fa fa-shopping-cart cart"></i></a></i>
+            </div>
+        </div>
+
+    </section>
+
+
+   <!-- contact-->
+    <section id="newletter" class="section-p1 section-m1" >
+        
+        <div class="newslext">
+            
+            <p> 
+                for more informations about our Services or any Complaints 
+                you can contact us and <span>we will do our best for you</span>.
+            </p>
+            
+        </div>
+        <div class="form" >
+            <input type="text" placeholder="type here">
+            <button class="normal">Send</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        
+        <div>
+            <h4>Contact</h4>
+            <p>
+                <br><strong>Address: </strong> @@@@@@@@@@@@
+                <br><strong>Phone: </strong> @@@@@@@@@@@@
+                <br><strong>Hours: </strong> @@@@@@@@@@@@
+            </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+        </div>
+        
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Canditions</a>
+            <a href="#">Product Advertising</a>
+            <a href="#">Contact Us</a>
+        </div>
+        
+    </footer>
+    
+    <p class="copyright">© 2022-Make it easy</p>
+    <!--end of contact-->
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+    
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
